@@ -1,8 +1,8 @@
 # sql-challenge
 Week 9 SQL Home Work
 
-> Created by Dale Currigan 
-> May 2021
+> Created by Dale Currigan  
+> May 2021  
   
 ![sql](Output/sql.png)    
 
@@ -17,9 +17,10 @@ Week 9 SQL Home Work
 
 # Project Intro
 
-The Project briefing was as follows:  
+The project briefing was as follows:  
 *It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:*  
+In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:*    
+  
 1. *Data Engineering*  
 2. *Data Analysis*  
 
@@ -54,67 +55,43 @@ sql-challenge
 # Questions 
 
 
-# Datasets 
 
-|No|Source|Link|
-|-|-|-|
-|1| World Happiness Report         |https://worldhappiness.report/ed/2021/| 
-|2| Kaggle World Happiness Dataset |https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021|
-|3| The World Bank                 |https://climateknowledgeportal.worldbank.org|  
-|4| The World Bank                 |https://data.worldbank.org/indicator/NY.GDP.PCAP.CD|  
-|5| World Health Organisation      |https://www.who.int/publications/i/item/depression-global-health-estimates|  
-|6| About Corona API               |https://about-corona.net|  
-|7| Kaggle Open Source Datasets    |https://www.kaggle.com/datasets|  
-|8| Country Demographics           |https://gist.github.com/tadast/8827699|  
-|9| Data World                     |https://data.world/https://data.world/makeovermonday/2019w44|   
-  
   
 # Analysis  
   
-### Question 1: Who is Happy?   
+### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
 
-The 2021 happiness report reviews the state of happiness in the world today. Data from the report was used in this project to investigate which countries across the globe ranked the happiest and how the state of happiness across the globe has changed since 2005.   
+![sql](Output/question_1.png)  
+
+### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
+
+![sql](Output/question_21.png)  
+
+### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
   
-At the top of the Happiness Score rankings Finland is ranked the happiest country in the world. At the bottom is Afghanistan, perhaps not to surprisingly given its years of war over past two decades. Western countries, particularly Scandinavian countries, tended to have higher happiness scores with lower happiness scores being found in African, Middle Eastern and South Asian countries. 
-
-![happiness](images/chorlopleth.png)  
-
-![happiness](images/regional_happiness_time.png)  
-
-Happiness is approximately normally distributed across the globe, a t-test showed that the Northern hemisphere is happier that the Southern hemisphere, with this result being statistically significant.    
-  
-![happiness](images/happiness_hemispheres.png)  
+![sql](Output/question_3.png)   
    
-### Question 2: What makes us Happy?   
-   
-Analysis showed that there are strong positive correlations between Happiness and GDP per Capita, Social Support, Freedom and Life Expectancy. A nations perceived levels of corruption presented a moderate negative correlation to happiness. Developed regions across the world have maintained higher and relatively stable happiness levels over time, with less developed regions exhibiting more volatile levels of happiness.  
+### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
   
-  ![happiness](images/Happiness_2019_GDP_per_Capita_log.png)  
+![sql](Output/question_4.png)  
 
-  ![happiness](images/Happiness_Freedom.png)  
+### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
 
-It was found that a Country’s happiness score is inversely correlated with average yearly temperature and sunlight hours, countries with lower temperatures tend to be happier. However, observing the regional distributions in the data it was hypothesised that this relationship may be due to the fact that the wealthier nations tend to have colder climates, with poorer ones being warmer.  
+![sql](Output/question_5.png)  
 
-![happiness](images/happiness_temp.png)  
-  
-A surprising reslut from the analysis showed that depression and anxiety are more common in nations with higher happiness scored. This may be due to better recognition, reporting and diagnosis of such conditions in developed countries. Mental health is dependent on a complex balance of biopsychosocial factors, therefore disorders such as depression and anxiety still have a high prevalence despite high national happiness scores.  
+### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
 
-![happiness](images/happiness_depression.png)  
-  
-  
-### Question 3: How has the Covid-19 global pandemic affected happiness?  
-  
-From the data analysed the Happiness Score does not have a real influence on the number of covid cases per million of population. However a negative correlation was observed between the covid death rate and happiness score. However, restricted was limited due to data limitations.  
+![sql](Output/question_6.png)  
 
-![happiness](images/happiness_covid_cases_pop.png)  
+### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
 
-![happiness](images/happiness_covid_death_rate.png)  
-  
-### Question 4: How happy are we in Australia?  
-  
-Ranking 11 out of the 149 countries included in the report, it would be fair to call Australia one of the happiest nations in the world. However, data also shows that the level of happiness in Australia has shown slight decline since scores 2005.  
-  
-![happiness](images/australia_happiness.png) 
+![sql](Output/question_7.png)  
+
+### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+![sql](Output/question_8.png)  
+
+
   
 # Contributors  
 - [@dcurrigan](https://github.com/dcurrigan)  
