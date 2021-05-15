@@ -4,7 +4,7 @@ Week 9 SQL Home Work
 > Created by Dale Currigan  
 > May 2021  
   
-![SQL](Output/sql.png)    
+![SQL](EmployeeSQL/Output/sql.png)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
@@ -61,7 +61,7 @@ sql-challenge
 # Setup 
 The Entity Relationship Diagram (ERD) below describes the structure and relationship present in the database:  
 
-![SQL](ERD.png)  
+![SQL](EmployeeSQL/ERD.png)  
   
 To perform the queries below the database can be establised as follows:  
 1. Create a new Database   
@@ -80,51 +80,51 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
   
 #### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
 
-![SQL](Output/question_1.png)  
+![SQL](EmployeeSQL/Output/question_1.png)  
 
 #### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
 
-![SQL](Output/question_21.png)  
+![SQL](EmployeeSQL/Output/question_21.png)  
 
 #### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
   
-![SQL](Output/question_3.png)   
+![SQL](EmployeeSQL/Output/question_3.png)   
    
 #### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
   
-![SQL](Output/question_4.png)  
+![SQL](EmployeeSQL/Output/question_4.png)  
 
 #### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
 
-![SQL](Output/question_5.png)  
+![SQL](EmployeeSQL/Output/question_5.png)  
 
 #### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
 
-![SQL](Output/question_6.png)  
+![SQL](EmployeeSQL/Output/question_6.png)  
 
 #### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
 
-![SQL](Output/question_7.png)  
+![SQL](EmployeeSQL/Output/question_7.png)  
 
 #### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-![SQL](Output/question_8.png)  
+![SQL](EmployeeSQL/Output/question_8.png)  
 
 #### Question 9: Create a histogram to visualize the most common salary ranges for employees.
 
-![SQL](Output/salary_histogram.png)  
+![SQL](EmployeeSQL/Output/salary_histogram.png)  
 
 #### Question 10: Create a bar chart of average salary by title.
 
-![SQL](Output/salary_query.png)  
+![SQL](EmployeeSQL/Output/salary_query.png)  
   
-![SQL](Output/avg_salary_title.png)  
+![SQL](EmployeeSQL/Output/avg_salary_title.png)  
 
 #### Question 11: Epilogue: Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 Unfotunately it appears I'm not payed well...  
   
-![SQL](Output/my_salary.png)  
+![SQL](EmployeeSQL/Output/my_salary.png)  
 
     
 # Contributors  
