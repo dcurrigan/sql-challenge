@@ -111,13 +111,12 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
 ![SQL](EmployeeSQL/Output/question_8.png)  
 
 **Question 9:** Create a histogram to visualize the most common salary ranges for employees.
-There is a skewed distribution of salaries with most employees earning salaries earning on salaries on the lower end of the scale
 
 ![SQL](EmployeeSQL/Output/salary_histogram.png)  
-
+There is a skewed distribution of salaries with most employees earning on salaries on the lower end of the scale  
+  
 **Question 10:** Create a bar chart of average salary by title.
-
-
+  
 ![SQL](EmployeeSQL/Output/salary_query.png)  
   
 ![SQL](EmployeeSQL/Output/avg_salary_title.png)  
