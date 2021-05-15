@@ -68,7 +68,7 @@ To perform the queries below the database can be establised as follows:
 2. Create tables using table schemata in schema.sql  
 3. Import the csv files into  the tables from the data folder  
     **Note:** Due to the foreign keys described in the schema, the csv's should be imported in the folllowing order:  
-              1. departments.csv --> 2. titles.csv --> 3. employees.csv --> 4. dept_emp.csv -->  5. dept_manager.csv --> 6. salaries.csv
+              (1) departments.csv --> (2) titles.csv --> (3) employees.csv --> (4) dept_emp.csv -->  (5) dept_manager.csv --> (6)) salaries.csv
 5. Run queries from the 'Data Analysis.sql' file  
   
 The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb notebook   
