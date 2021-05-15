@@ -9,14 +9,16 @@ Week 9 SQL Home Work
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
 * [Project Structure](#Project-Structure)  
-* [Question](#Questions)  
+* [Setup](#Setup)  
 * [Analysis](#Analysis)  
 * [Contributors](#Contributors)  
 * [Status](#Status)  
 
 # Project Intro
-
+This project covers the week 9 SQL homework project - Employee Database: A Mystery in Two Parts  
+  
 The project briefing was as follows:  
+  
 *It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:*    
   
@@ -51,10 +53,20 @@ sql-challenge
 |   |   |__ my_salary.png
 ``` 
   
-# Questions 
+# Setup 
+The Entity Relationship Diagram (ERD) below describes the structure and relationship present in the database:  
 
-
-
+![SQL](ERD.png)  
+  
+To perform the queries below the database can be establised as follows:  
+1. Create a new Database   
+2. Create tables using table schemata in schema.sql  
+3. Load data into tables from the data folder  
+4. Run queries from the 'Data Analysis.sql' file  
+  
+The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb notebook   
+**NOTE:** This notebook requires the users PostgreSQL username and password to be loaded into the config.py file in order to load the engine  
+  
   
 # Analysis  
   
