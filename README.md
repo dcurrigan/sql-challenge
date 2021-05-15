@@ -65,7 +65,8 @@ To perform the queries below the database can be establised as follows:
 4. Run queries from the 'Data Analysis.sql' file  
   
 The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb notebook   
-**NOTE:** This notebook requires the users PostgreSQL username and password to be loaded into the config.py file in order to load the engine  
+  
+**NOTE:** This notebook requires the users **PostgreSQL username and password** to be loaded into the config.py file in order to load the engine  
   
   
 # Analysis  
@@ -98,7 +99,7 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
 
 ![SQL](Output/question_7.png)  
 
-### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+#### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 ![SQL](Output/question_8.png)  
 
