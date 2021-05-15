@@ -71,31 +71,31 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
   
 # Analysis  
   
-### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
+#### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
 
 ![SQL](Output/question_1.png)  
 
-### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
+#### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
 
 ![SQL](Output/question_21.png)  
 
-### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
+#### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
   
 ![SQL](Output/question_3.png)   
    
-### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
+#### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
   
 ![SQL](Output/question_4.png)  
 
-### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
+#### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
 
 ![SQL](Output/question_5.png)  
 
-### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
+#### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
 
 ![SQL](Output/question_6.png)  
 
-### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
+#### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
 
 ![SQL](Output/question_7.png)  
 
