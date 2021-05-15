@@ -67,7 +67,8 @@ To perform the queries below the database can be establised as follows:
 1. Create a new Database   
 2. Create tables using table schemata in schema.sql  
 3. Load data into tables from the data folder  
-4. Run queries from the 'Data Analysis.sql' file  
+    **Note:** 1. departments.csv, 2. titles.csv, 3. employees.csv, 4. dept_emp.csv,  dept_manager.csv, salaries.csv
+5. Run queries from the 'Data Analysis.sql' file  
   
 The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb notebook   
   
