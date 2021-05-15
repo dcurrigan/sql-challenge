@@ -108,6 +108,21 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
 
 ![SQL](Output/question_8.png)  
 
+#### Question 9: Create a histogram to visualize the most common salary ranges for employees.
+
+![SQL](Output/salary_histogram.png)  
+
+#### Question 10: Create a bar chart of average salary by title.
+
+![SQL](Output/salary_query.png)  
+  
+![SQL](Output/avg_salary_title.png)  
+
+#### Question 11: Epilogue: Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+
+![SQL](Output/my_salary.png)  
+
+
 
   
 # Contributors  
