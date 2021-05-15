@@ -117,10 +117,8 @@ Ranking 11 out of the 149 countries included in the report, it would be fair to 
 ![happiness](images/australia_happiness.png) 
   
 # Contributors  
-  
-- [@adamlever](https://github.com/adamlever)  
 - [@dcurrigan](https://github.com/dcurrigan)  
-- [@jfaccioli](https://github.com/jfaccioli)  
+
 
 ## Status
 Project is: 
