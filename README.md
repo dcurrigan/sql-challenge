@@ -4,13 +4,12 @@ Week 9 SQL Home Work
 > Created by Dale Currigan  
 > May 2021  
   
-![sql](Output/sql.png)    
+![SQL](Output/sql.png)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
 * [Project Structure](#Project-Structure)  
 * [Question](#Questions)  
-* [Datasets](#Datasets)  
 * [Analysis](#Analysis)  
 * [Contributors](#Contributors)  
 * [Status](#Status)  
@@ -61,35 +60,35 @@ sql-challenge
   
 ### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
 
-![sql](Output/question_1.png)  
+![SQL](Output/question_1.png)  
 
 ### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
 
-![sql](Output/question_21.png)  
+![SQL](Output/question_21.png)  
 
 ### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
   
-![sql](Output/question_3.png)   
+![SQL](Output/question_3.png)   
    
 ### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
   
-![sql](Output/question_4.png)  
+![SQL](Output/question_4.png)  
 
 ### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
 
-![sql](Output/question_5.png)  
+![SQL](Output/question_5.png)  
 
 ### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
 
-![sql](Output/question_6.png)  
+![SQL](Output/question_6.png)  
 
 ### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
 
-![sql](Output/question_7.png)  
+![SQL](Output/question_7.png)  
 
 ### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-![sql](Output/question_8.png)  
+![SQL](Output/question_8.png)  
 
 
   
