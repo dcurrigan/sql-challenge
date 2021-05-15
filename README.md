@@ -103,7 +103,7 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
 
   
 # Contributors  
-- [@dcurrigan](https://github.com/dcurrigan)  
+- [@dcurrigan](https://github.com/dcurrigan) - <dcurrigan@gmail.com>
 
 
 ## Status
