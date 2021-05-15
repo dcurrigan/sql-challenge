@@ -115,12 +115,15 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
 ![SQL](EmployeeSQL/Output/salary_histogram.png)  
 There is a skewed distribution of salaries with most employees earning on salaries on the lower end of the scale  
   
+  
 **Question 10:** Create a bar chart of average salary by title.
   
 ![SQL](EmployeeSQL/Output/salary_query.png)  
   
 ![SQL](EmployeeSQL/Output/avg_salary_title.png)  
+'Staff' and 'Senior Staff' make on average considerably more than employees with other titles
 
+  
 **Question 11 - Epilogue:** Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 Unfotunately it appears I'm not payed well...  
