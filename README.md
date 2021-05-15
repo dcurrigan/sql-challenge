@@ -55,7 +55,7 @@ sql-challenge
 |   |   |__ salary_query.png  
 |   |   |__ salary_histogram.png
 |   |   |__ avg_salary_title.png
-|   |   |__ my_salary.png
+|   |   |__ my_id.png
 ``` 
   
 # Setup 
@@ -126,9 +126,9 @@ There is a skewed distribution of salaries with most employees earning on salari
   
 **Question 11 - Epilogue:** Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
-Unfortunately it appears I'm not payed well...  
+I see...  
   
-![SQL](EmployeeSQL/Output/my_salary.png)  
+![SQL](EmployeeSQL/Output/my_id.png)  
 
     
 # Contributors  
