@@ -4,7 +4,7 @@ Week 9 SQL Home Work
 > Created by Dale Currigan  
 > May 2021  
   
-![SQL](Output/sql.png)    
+![SQL](EmployeeSQL/Output/sql.png)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
@@ -20,7 +20,7 @@ This project covers the week 9 SQL homework project - Employee Database: A Myste
 The project briefing was as follows:  
   
 *It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. 
+In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data.* 
 
 
 # Project Structure
@@ -61,11 +61,11 @@ sql-challenge
 # Setup 
 The Entity Relationship Diagram (ERD) below describes the structure and relationship present in the database:  
 
-![SQL](ERD.png)  
+![SQL](EmployeeSQL/ERD.png)  
   
 To perform the queries below the database can be establised as follows:  
-1. Create a new Database   
-2. Create tables using table schemata in schema.sql  
+1. Create a new Database in PostgreSQL  
+2. Create tables using table schemata in the 'schema.sql' file 
 3. Import the csv files into  the tables from the data folder  
     **Note:** Due to the foreign keys described in the schema, the csv's should be imported in the folllowing order:  
               (1) departments.csv --> (2) titles.csv --> (3) employees.csv --> (4) dept_emp.csv -->  (5) dept_manager.csv --> (6)) salaries.csv
@@ -78,53 +78,57 @@ The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb no
   
 # Analysis  
   
-#### Question 1: List the following details of each employee: employee number, last name, first name, sex, and salary   
+**Question 1:** List the following details of each employee: employee number, last name, first name, sex, and salary   
 
-![SQL](Output/question_1.png)  
+![SQL](EmployeeSQL/Output/question_1.png)  
 
-#### Question 2: List first name, last name, and hire date for employees who were hired in 1986.
+**Question 2:** List first name, last name, and hire date for employees who were hired in 1986.
 
-![SQL](Output/question_21.png)  
+![SQL](EmployeeSQL/Output/question_2.png)  
 
-#### Question 3: List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
+**Question 3:** List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. 
   
-![SQL](Output/question_3.png)   
+![SQL](EmployeeSQL/Output/question_3.png)   
    
-#### Question 4: List the department of each employee with the following information: employee number, last name, first name, and department name. 
+**Question 4:** List the department of each employee with the following information: employee number, last name, first name, and department name. 
   
-![SQL](Output/question_4.png)  
+![SQL](EmployeeSQL/Output/question_4.png)  
 
-#### Question 5: List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
+**Question 5:** List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." 
 
-![SQL](Output/question_5.png)  
+![SQL](EmployeeSQL/Output/question_5.png)  
 
-#### Question 6: List all employees in the Sales department, including their employee number, last name, first name, and department name. 
+**Question 6:** List all employees in the Sales department, including their employee number, last name, first name, and department name. 
 
-![SQL](Output/question_6.png)  
+![SQL](EmployeeSQL/Output/question_6.png)  
 
-#### Question 7: List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
+**Question 7:** List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. 
 
-![SQL](Output/question_7.png)  
+![SQL](EmployeeSQL/Output/question_7.png)  
 
-#### Question 8: In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+**Question 8:** In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-![SQL](Output/question_8.png)  
+![SQL](EmployeeSQL/Output/question_8.png)  
 
-#### Question 9: Create a histogram to visualize the most common salary ranges for employees.
+**Question 9:** Create a histogram to visualize the most common salary ranges for employees.
 
-![SQL](Output/salary_histogram.png)  
-
-#### Question 10: Create a bar chart of average salary by title.
-
-![SQL](Output/salary_query.png)  
+![SQL](EmployeeSQL/Output/salary_histogram.png)  
+There is a skewed distribution of salaries with most employees earning on salaries on the lower end of the scale  
   
-![SQL](Output/avg_salary_title.png)  
-
-#### Question 11: Epilogue: Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
-
-Unfotunately it appears I'm not payed well...  
   
-![SQL](Output/my_salary.png)  
+**Question 10:** Create a bar chart of average salary by title.
+  
+![SQL](EmployeeSQL/Output/salary_query.png)  
+  
+![SQL](EmployeeSQL/Output/avg_salary_title.png)  
+'Staff' and 'Senior Staff' make on average considerably more than employees with other titles
+
+  
+**Question 11 - Epilogue:** Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+
+Unfortunately it appears I'm not payed well...  
+  
+![SQL](EmployeeSQL/Output/my_salary.png)  
 
     
 # Contributors  
